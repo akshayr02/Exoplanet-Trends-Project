@@ -1,3 +1,4 @@
+# Manually creating a new table with the right column names
 CREATE TABLE exoplanets (
     pl_name TEXT,
     hostname TEXT,
@@ -76,6 +77,7 @@ CREATE TABLE exoplanets (
     sy_gaiamagerr2 TEXT
 );
 
+# Loading the data from the CSV file, ignoring the first 84 rows
 LOAD DATA LOCAL INFILE 'C:/Users/Akshay/Documents/Project_work/Exoplanet-Trends-Project/Data/PSCompPars_2025.06.18_07.30.56.csv'
 INTO TABLE exoplanets
 FIELDS TERMINATED BY ',' 
