@@ -80,16 +80,19 @@ Exoplanet-Trends-Project/
 ├── Scripts/
 │   ├── data_analysis.sql
 │   ├── data_cleaning.sql
-│   └── data_importing.sql
+│   ├── data_importing.sql
 │   └── data_importing_names.py
 ├── Data/
-│   └── PSCompPars_2025.06.18_07.30.56.csv
+│   ├── PSCompPars_2025.06.18_07.30.56.csv
 │   └── raw_data_excel.xlsx
 ├── Visuals/
 │   └── report_overview_screenshot.png
 │   └── report_time_series_screenshot.png
 │   └── report_properties_screenshot.png
 ├── exoplanet_report.pbix
+
+<pre> ``` Exoplanet-Trends-Project/ ├── README.md # Overview, goals, and key insights ├── Scripts/ │ ├── data_importing.sql # SQL script to import raw data into MySQL │ ├── data_cleaning.sql # SQL script to clean and transform data │ ├── data_analysis.sql # SQL for aggregations, views, and insights │ └── data_importing_names.py # Python script to extract column names from CSV ├── Data/ │ ├── PSCompPars_2025.06.18_07.30.56.csv # Raw exoplanet data from NASA │ └── raw_data_excel.xlsx # Additional raw data in Excel format ├── Visuals/ │ ├── report_overview_screenshot.png # Power BI dashboard overview │ ├── report_time_series_screenshot.png # Time series of discoveries │ └── report_properties_screenshot.png # Distributions of planet properties ├── exoplanet_report.pbix # Final Power BI dashboard ``` </pre>
+
 ---
 
 ## 📚 Credits
