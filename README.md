@@ -76,17 +76,18 @@ Includes:
 
 ## 📁 Repository Structure
 
-* [Data/](./Exoplanet-Trends-Project/Data)
-  * [PSCompPars_2025.06.18_07.30.56.csv](./Exoplanet-Trends-Project/Data/PSCompPars_2025.06.18_07.30.56.csv)
-  * [raw_data_excel.xlsx](./Exoplanet-Trends-Project/Data/raw_data_excel.xlsx)
-* [Scripts/](./Exoplanet-Trends-Project/Scripts)
-  * [data_analysis.sql](./Exoplanet-Trends-Project/Scripts/data_analysis.sql)
-  * [data_cleaning.sql](./Exoplanet-Trends-Project/Scripts/data_cleaning.sql)
-  * [data_importing.sql](./Exoplanet-Trends-Project/Scripts/data_importing.sql)
-  * [data_importing_names.py](./Exoplanet-Trends-Project/Scripts/data_importing_names.py)
-* [Visuals/](./Exoplanet-Trends-Project/Visuals)
-* [exoplanet_report.pbix](./Exoplanet-Trends-Project/exoplanet_report.pbix)
-* [README.md](./Exoplanet-Trends-Project/README.md)
+* [README.md](./README.md) # Overview, goals, and key insights
+* [Data/](./Data)
+  * [PSCompPars_2025.06.18_07.30.56.csv](./Data/PSCompPars_2025.06.18_07.30.56.csv) # Raw exoplanet data from NASA
+  * [raw_data_excel.xlsx](./Data/raw_data_excel.xlsx) # Raw data in Excel format with markup indicating dropped data
+* [Scripts/](./Scripts)
+  * [data_importing.sql](./Scripts/data_importing.sql) # SQL script to import raw data into MySQL
+  * [data_cleaning.sql](./Scripts/data_cleaning.sql) # SQL script to clean and transform data
+  * [data_analysis.sql](./Scripts/data_analysis.sql) # SQL for aggregations, views, and insights
+  * [data_importing_names.py](./Scripts/data_importing_names.py) # Python script to extract column names from CSV
+* [Visuals/](./Visuals)
+* [exoplanet_report.pbix](./exoplanet_report.pbix) # Final Power BI dashboard
+
 
 ---
 
