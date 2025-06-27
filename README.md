@@ -86,6 +86,9 @@ Includes:
   * [data_analysis.sql](./Scripts/data_analysis.sql) # SQL for aggregations, views, and insights
   * [data_importing_names.py](./Scripts/data_importing_names.py) # Python script to extract column names from CSV
 * [Visuals/](./Visuals)
+  * [exoplanet_overview_report.png](./Visuals/exoplanet_overview_report.png) # Screenshot of overview page
+  * [exoplanet_time_series_report.png](./Visuals/exoplanet_time_series_report.png) # Screenshot of exoplanet time series page
+  * [exoplanet_properties_report.png](./Visuals/exoplanet_properties_report.png) # Screenshot of exoplanet properties page
 * [exoplanet_report.pbix](./exoplanet_report.pbix) # Final Power BI dashboard
 
 
