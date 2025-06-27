@@ -1,4 +1,8 @@
 SELECT *
+FROM staging_exoplanets
+WHERE discoverymethod = "Radial Velocity";
+
+SELECT *
 FROM staging_exoplanets;
 
 # Most effective detection methods
