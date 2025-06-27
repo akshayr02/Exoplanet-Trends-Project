@@ -45,6 +45,8 @@ This project explores a large dataset from the NASA Exoplanet Archive using SQL 
 
 ## 📈 Dashboard Highlights
 
+<img src="./Visuals/exoplanet_overview_report.png" width="700">
+
 Includes:
 - Column charts of most successful discovery methods and facilities
 - Rolling total table of discoveries
